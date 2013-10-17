@@ -1,6 +1,17 @@
 # Web Components Demo
 
 Experimenting with some of the features of web components, shadow DOM, etc. 
+
+## Notes
+
+### Creating a Shadow Root
+
+Use `hostElement.webkitCreateShadowRoot()` where hostElement is a DOM element.
+
+### Accessing a Shadow Root
+
+Use `hostElement.webkitShadowRoot` where hostElement is a DOM element with a shadow root.
+
 ## Resources
 
 Most of the examples in the demos are not mine; I'm building them based on the examples and code in the following excellent resources:
