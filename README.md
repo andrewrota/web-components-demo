@@ -12,6 +12,10 @@ Use `hostElement.webkitCreateShadowRoot()` where `hostElement` is a DOM element.
 
 Use `hostElement.webkitShadowRoot` where `hostElement` is a DOM element with a shadow root.
 
+### @Todo
+
+* Add example using the [Polymer](http://www.polymer-project.org/) library
+
 ## Resources
 
 Most of the examples in the demos are not mine; I'm building them based on the examples and code in the following excellent resources:
