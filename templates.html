@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Components: Templates</title>
+    <style>
+        /* Doesn't seem to be working in Chrome (yet?) */
+      ::part(cool) {
+          font-weight: bold;
+          text-decoration: underline;
+      }
+    </style>
+</head>
+
+<body>
+    <template id="template">
+        <style>
+            p {
+                color: red;
+            }
+            :host {
+                font-weight: bold;
+            }
+        </style>
+        <p>Template text: <content></content>.  <span part="cool">Cool, right?</span></p>
+    </template>
+    Outside template.
+    <div id="host">
+        Host div.
+    </div>
+    <script src="templates.js" type="text/javascript"></script>
+</body>
+
+</html>
