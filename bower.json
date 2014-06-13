@@ -1,0 +1,19 @@
+{
+  "name": "web-components-demo",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andrewrota/web-components-demo",
+  "authors": [
+    "Andrew Rota <rota.andrew@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.2"
+  }
+}
