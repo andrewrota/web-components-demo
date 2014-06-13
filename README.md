@@ -2,6 +2,15 @@
 
 Experimenting with some of the features of web components, shadow DOM, etc. 
 
+## Install
+
+Run `bower install`
+
+### Requirements
+
+* Node
+* Bower
+
 ## Notes
 
 ### API
