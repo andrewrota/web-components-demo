@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="bower_components/x-tag-core/dist/x-tag-core.js"></script>
+    <link rel="import" href="x-tag-element.html">
+    <title>X-Tag</title>
+</head>
+
+<body>
+
+    <template id="x-tag-template">This is a custom <strong>X-Tag</strong> element.</template>
+    
+    <script>
+        xtag.register('x-tag-element', {
+            lifecycle: {
+                created: function() {
+                    var template = document.getElementById('x-tag-template').content;
+                    this.appendChild(template.cloneNode(true));
+                }
+            }
+        });
+        var t = document.createElement('x-tag-element');
+        document.body.appendChild(t);
+    </script>
+</body>
+
+</html>
