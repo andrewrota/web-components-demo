@@ -23,10 +23,6 @@ Use `hostElement.webkitCreateShadowRoot()` where `hostElement` is a DOM element.
 
 Use `hostElement.webkitShadowRoot` where `hostElement` is a DOM element with a shadow root.
 
-### @Todo
-
-* Add example using the [Polymer](http://www.polymer-project.org/) library
-
 ## Resources
 
 Browser Support
