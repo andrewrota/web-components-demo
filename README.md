@@ -29,6 +29,9 @@ Use `hostElement.webkitShadowRoot` where `hostElement` is a DOM element with a s
 
 ## Resources
 
+Best Practices
+* [Ten Principles for Great General Purpose Web Components](https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components)
+
 Browser Support
 * [Jon Rimmer's Are We Componentized Yet](http://jonrimmer.github.io/are-we-componentized-yet/)
 
