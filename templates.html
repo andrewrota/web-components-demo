@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <title>Web Components: Templates</title>
     <style>
-        /* Doesn't seem to be working in Chrome (yet?) */
-      ::part(cool) {
+      body /deep/ span {
           font-weight: bold;
           text-decoration: underline;
       }
@@ -20,10 +19,10 @@
                 color: red;
             }
             :host {
-                font-weight: bold;
+                border: 1px solid green;
             }
         </style>
-        <p>Template text: <content></content>.  <span part="cool">Cool, right?</span></p>
+        <p>Template text: <content></content>.  <span class="cool">Cool, right?</span></p>
     </template>
     Outside template.
     <div id="host">
