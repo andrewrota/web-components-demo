@@ -17,11 +17,11 @@ Run `bower install`
 
 #### Creating a Shadow Root
 
-Use `hostElement.webkitCreateShadowRoot()` where `hostElement` is a DOM element.
+Use `hostElement.createShadowRoot()` where `hostElement` is a DOM element.
 
 #### Accessing a Shadow Root
 
-Use `hostElement.webkitShadowRoot` where `hostElement` is a DOM element with a shadow root.
+Use `hostElement.shadowRoot` where `hostElement` is a DOM element with a shadow root.
 
 ### @Todo
 
