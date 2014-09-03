@@ -1,2 +1,15 @@
 <link rel="import" href="bower_components/polymer/polymer.html">
-<polymer-element name="custom-element" noscript><template>This is a custom <strong>Polymer</strong> element.  <content></content></template></polymer-element>
+<polymer-element name="custom-element" noscript>
+    <template>This is a custom <strong>Polymer</strong> element.
+        <content></content>
+    </template>
+    <script>
+		(function() {
+			Polymer('custom-element', {
+                domReady: function() {
+                    window.console.log('DOM Ready');
+                }
+			});
+		}());
+	</script>
+</polymer-element>
