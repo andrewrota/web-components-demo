@@ -18,6 +18,10 @@
                 created: function() {
                     var template = document.getElementById('x-tag-template').content;
                     this.appendChild(template.cloneNode(true));
+                    window.console.log('element created');
+                },
+                inserted: function() {
+                    window.console.log('element inserted in dom');
                 }
             }
         });
