@@ -8,6 +8,9 @@
 			Polymer('custom-element', {
                 domReady: function() {
                     window.console.log('DOM Ready');
+                },
+                attached: function() {
+                    window.console.log('attached to the DOM');
                 }
 			});
 		}());
